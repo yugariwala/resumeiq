@@ -1,0 +1,130 @@
+# ═══════════════════════════════════════════════════════════
+# ResumeIQ — Comprehensive .gitignore
+# Covers: Node.js, Python, React/Vite, Environment Files,
+#         Supabase Local Config, OS Files, Editors/IDEs
+# ═══════════════════════════════════════════════════════════
+
+# ───────────────────────────────────────
+# Environment Variables (CRITICAL)
+# ───────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+*.env
+
+# ───────────────────────────────────────
+# Node.js / npm / yarn / pnpm
+# ───────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json.bak
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# ───────────────────────────────────────
+# Python
+# ───────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+.installed.cfg
+
+# ───────────────────────────────────────
+# React / Vite Build Output
+# ───────────────────────────────────────
+dist/
+build/
+.vite/
+*.local
+
+# ───────────────────────────────────────
+# Supabase Local Config
+# ───────────────────────────────────────
+supabase/.branches
+supabase/.temp/
+.supabase/
+
+# ───────────────────────────────────────
+# Log Files
+# ───────────────────────────────────────
+*.log
+logs/
+*.log.*
+
+# ───────────────────────────────────────
+# OS Files
+# ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ───────────────────────────────────────
+# Editors / IDEs
+# ───────────────────────────────────────
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ───────────────────────────────────────
+# Testing & Coverage
+# ───────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ───────────────────────────────────────
+# Misc
+# ───────────────────────────────────────
+*.tgz
+.cache/
+.parcel-cache/
+.turbo/
+.vercel/
+.output/
