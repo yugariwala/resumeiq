@@ -52,7 +52,9 @@ pip-delete-this-directory.txt
 .Python
 develop-eggs/
 eggs/
-lib/
+# Python-specific library folders
+python_lib/
+# lib/
 lib64/
 parts/
 sdist/
