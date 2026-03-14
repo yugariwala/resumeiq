@@ -130,3 +130,5 @@ htmlcov/
 .turbo/
 .vercel/
 .output/
+
+!backend/dist/
